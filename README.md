@@ -113,7 +113,7 @@ pip install --no-deps adversarial-robustness-toolbox~=1.12.2
 You can also create virtual environments on a chapter by chaper basis with `pipenv`, `venv`, `virtualenv`, `conda` or any of the other options, and use the `chapter_setup.py` script located in every chapter to ensure that the packages are installed. For instance:
 
 ``` sh
-# Go to chapter's folder
+# Go to chapter's folder : This is tested using Mac. 
 cd /path/to/chapter
 
 # Create a virtual environment called "myenv"
@@ -138,6 +138,14 @@ python -m ipykernel install --user --name=myvenv
 # Start a Jupyter server (typically available at http://localhost:8888/tree)
 jupyter notebook
 ```
+# Additional note: 
+After followed the previous steps, chapter 2, I added the followings.
+
+
+%pip install --upgrade machine-learning-datasets==0.1.23
+
+%pip install --upgrade statsmodels==0.14.0
+
 
 ### Google Colab
 
