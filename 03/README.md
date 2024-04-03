@@ -30,3 +30,7 @@ rulefit~=0.3.1
 interpret~=0.4.4
 gaminet~=0.6.1
 ```
+
+## Added (by wooyoung)
+%pip install tensorflow-lattice --upgrade
+%pip install gaminet --upgrade
